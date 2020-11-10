@@ -1,7 +1,9 @@
 package data;
 
 import base.Bike;
+import base.Location;
 import base.Parcel;
+import base.ParcelStatus;
 import base.Person;
 
 public class ToyData {
@@ -16,6 +18,7 @@ public class ToyData {
     public static Person[] getPerson() {
         Person[] person = new Person[3];
         // your code
+        
 
         return person;
     }
@@ -23,7 +26,16 @@ public class ToyData {
     public static Parcel[] getParcels() {
         Parcel[] parcels = new Parcel[10];
         // your code
-
+parcels[1]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[2]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[3]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[4]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[5]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[6]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[7]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[8]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[9]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
+parcels[10]=new Parcel(10, ParcelStatus.SHIPPING,new Location(120, 120));
         return parcels;
     }
 
